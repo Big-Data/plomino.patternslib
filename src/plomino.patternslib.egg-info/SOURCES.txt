@@ -1,0 +1,17 @@
+README.txt
+setup.cfg
+setup.py
+src/plomino/__init__.py
+src/plomino.patternslib.egg-info/PKG-INFO
+src/plomino.patternslib.egg-info/SOURCES.txt
+src/plomino.patternslib.egg-info/dependency_links.txt
+src/plomino.patternslib.egg-info/entry_points.txt
+src/plomino.patternslib.egg-info/namespace_packages.txt
+src/plomino.patternslib.egg-info/not-zip-safe
+src/plomino.patternslib.egg-info/paster_plugins.txt
+src/plomino.patternslib.egg-info/requires.txt
+src/plomino.patternslib.egg-info/top_level.txt
+src/plomino/patternslib/__init__.py
+src/plomino/patternslib/testing.py
+src/plomino/patternslib/tests/__init__.py
+src/plomino/patternslib/tests/test_example.py
