@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: plomino.patternslib
 Version: 0.5
-Summary: A Plomino plugin that provides fields and other form elements built using the Patternsjavascript library.
-Home-page: http://svn.plone.org/svn/collective/
-Author: UNKNOWN
-Author-email: UNKNOWN
+Summary: A Plomino plugin that provides fields and other form elements built using the Patterns javascript library.
+Home-page: http://solitonconsulting.com
+Author: Fulvio Casali
+Author-email: fulviocasali@gmail.com
 License: gpl
 Description: .. contents::
         
@@ -15,22 +15,18 @@ Description: .. contents::
         Contributors
         ============
         
-        Note:  place names and roles of the people who contribute to this package
-               in this file, one to a line, like so:
-        
-        - Joe Schmoe, Original Author
-        - Bob Slob, contributed monkey patches
-        - Jane Main, wrote flibberty module
+        - Fulvio Casali, Original Author
         
         Changelog
         =========
         
-        0.5-dev (unreleased)
+        0.5-dev (2012-10-13)
         --------------------
         
-        - Package created using templer
-          []
+        * Package created using templer
+        * Implementation of first Selection widget using "Chosen" Pattern [fulviocasali]
         
+Keywords: Plomino,Patternslib,Patterns,Javascript,Fields
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Plone

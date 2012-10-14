@@ -1,4 +1,4 @@
-README.txt
+README.rst
 setup.cfg
 setup.py
 src/plomino/__init__.py
@@ -13,5 +13,11 @@ src/plomino.patternslib.egg-info/requires.txt
 src/plomino.patternslib.egg-info/top_level.txt
 src/plomino/patternslib/__init__.py
 src/plomino/patternslib/testing.py
+src/plomino/patternslib/browser/__init__.py
+src/plomino/patternslib/browser/css/__init__.py
+src/plomino/patternslib/browser/images/__init__.py
+src/plomino/patternslib/browser/javascript/__init__.py
+src/plomino/patternslib/fields/__init__.py
+src/plomino/patternslib/fields/selection.py
 src/plomino/patternslib/tests/__init__.py
 src/plomino/patternslib/tests/test_example.py

@@ -13,9 +13,13 @@ __docformat__ = 'plaintext'
 from zope.formlib import form
 from zope.interface import implements
 from zope import component
+from zope.pagetemplate.pagetemplatefile import PageTemplateFile
+
 from zope.schema import getFields
+from zope.schema import Choice
 from zope.schema.vocabulary import SimpleVocabulary
-from dictionaryproperty import DictionaryProperty
+from Products.CMFPlomino.fields.dictionaryproperty import DictionaryProperty
+from Products.CMFPlomino.interfaces import IPlominoField
 
 from Products.CMFPlomino.fields.selection import ISelectionField as \
     ISelectionBase, SelectionField as SelectionFieldBase, SettingForm
@@ -28,7 +32,7 @@ class ISelectionField(ISelectionBase):
                                                            ]),
                     title=u'Widget',
                     description=u'Field rendering',
-                    default="SELECT",
+                    default="CHOSEN",
                     required=True)
 
 class SelectionField(SelectionFieldBase):
@@ -43,7 +47,7 @@ class SelectionField(SelectionFieldBase):
     read_template = PageTemplateFile('chosen_read.pt')
     edit_template = PageTemplateFile('chosen_edit.pt')
 
-component.provideUtility(SelectionField, ISelectionField, 'CHOSEN')
+component.provideUtility(SelectionField, IPlominoField, 'CHOSEN')
 
 for f in getFields(ISelectionField).values():
     setattr(SelectionField, f.getName(),

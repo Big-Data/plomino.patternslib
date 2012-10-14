@@ -10,11 +10,6 @@
         />
 
     <browser:resourceDirectory
-        name="plomino.patternslib.images"
-        directory="images"
-        />
-
-    <browser:resourceDirectory
         name="plomino.patternslib.css"
         directory="css"
         />

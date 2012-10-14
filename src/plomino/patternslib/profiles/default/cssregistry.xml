@@ -8,7 +8,7 @@
              cookable="True"
              enabled="1"
              expression=""
-             id="chosen.css"
+             id="++resource++plomino.patternslib.css/chosen.css"
              media="all"
              rel="stylesheet"
              rendering="import"/>
