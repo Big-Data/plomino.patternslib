@@ -36,10 +36,11 @@ setup(name='plomino.patternslib',
       packages=find_packages('src'),
       package_dir={'': 'src'},
       namespace_packages=['plomino', ],
+      package_data={'': ['src/docs/*']},
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
+          'distribute',
           # -*- Extra requirements: -*-
       ],
       extras_require={'test': ['plone.app.testing']},
