@@ -15,7 +15,6 @@ src/plomino/patternslib/__init__.py
 src/plomino/patternslib/testing.py
 src/plomino/patternslib/browser/__init__.py
 src/plomino/patternslib/browser/css/__init__.py
-src/plomino/patternslib/browser/images/__init__.py
 src/plomino/patternslib/browser/javascript/__init__.py
 src/plomino/patternslib/fields/__init__.py
 src/plomino/patternslib/fields/selection.py
