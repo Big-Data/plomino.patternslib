@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.5.1'
+version = '0.5.5'
 
 long_description = (
     open('README.rst').read()
@@ -9,9 +9,9 @@ long_description = (
     'Contributors\n'
     '============\n'
     + '\n' +
-    open('CONTRIBUTORS.txt').read()
+    open('docs/CONTRIBUTORS.txt').read()
     + '\n' +
-    open('CHANGES.txt').read()
+    open('docs/CHANGES.txt').read()
     + '\n')
 
 setup(name='plomino.patternslib',
@@ -31,15 +31,16 @@ setup(name='plomino.patternslib',
       keywords='Plomino, Patternslib, Patterns, Javascript, Fields',
       author='Fulvio Casali',
       author_email='fulviocasali@gmail.com',
-      url='http://solitonconsulting.com',
+      url='https://github.com/plomino/plomino.patternslib',
       license='gpl',
       packages=find_packages('src'),
       package_dir={'': 'src'},
       namespace_packages=['plomino', ],
+      package_data={'': ['docs/*']},
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
+          'distribute',
           # -*- Extra requirements: -*-
       ],
       extras_require={'test': ['plone.app.testing']},

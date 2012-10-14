@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
 Name: plomino.patternslib
-Version: 0.5
+Version: 0.5.3
 Summary: A Plomino plugin that provides fields and other form elements built using the Patterns javascript library.
-Home-page: http://solitonconsulting.com
+Home-page: https://github.com/plomino/plomino.patternslib
 Author: Fulvio Casali
 Author-email: fulviocasali@gmail.com
 License: gpl
