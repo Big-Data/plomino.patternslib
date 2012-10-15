@@ -15,13 +15,16 @@ Add ``plomino.patternslib`` to the list of ``eggs`` of your ``plone.recipe.zope2
 
 Use
 ===
-Activate ``plomino.patternslib`` either in ``portal_quickinstaller``, or from the ``/prefs_install_products_form`` Add-ons 
-control panel on your Plone site.
+Activate ``plomino.patternslib`` either in ``portal_quickinstaller``, or from the ``/prefs_install_products_form`` 
+Add-ons control panel on your Plone site.
 
-Assuming you already have Plomino installed on your site, you will now have a new field type **Chosen** available to add. 
-It can be configured exactly like a *Selection List* field.
+Assuming you already have Plomino installed on your site, you will now have a new field type **Chosen** available to add
+to your Plomino forms. It can be configured exactly like a *Selection List* field.
 
-To see working examples of the style and behavior of the **Chosen** field, see Harvest_.
+Examples
+========
+To see working examples of the style and behavior of the **Chosen** field, see Harvest_.  Currently, only the 
+*Multiple Select* type is available, but more will be added in upcoming releases.
 
 Related Links
 =============
